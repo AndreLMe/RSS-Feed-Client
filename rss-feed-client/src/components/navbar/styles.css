@@ -1,18 +1,28 @@
 nav{
     background-color: var(--bg-secundary);
-    height: 12vh;
-    box-sizing: border-box;
+    height: 8vh;
     width: 100%;
-    position: fixed;
     font-size: 1.5rem;
 }
 
 .navbar-list{
     display: flex;
+    list-style: none;
     align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar-element{
-    margin: auto;
-    background-color: DA0037;
+    width: 100%;
+}
+
+.navbar-element:first-child{
+    font-size: 30px;
+}
+
+.navbar-element:last-child{
+    width: auto;
+    padding-right: 8vh;
 }
