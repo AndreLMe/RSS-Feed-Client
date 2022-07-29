@@ -1,15 +1,9 @@
 import React from 'react';
-import {FaBars} from 'react-icons/fa'
-import './styles.css';
+import Navbar from './components/navbar';
 
 function App() {
   return (
-    <div className='navbar'>
-      <li className='navbar-list'>
-        <ul><FaBars className='tabs'/></ul>
-        <ul className='navbar-element'>Three</ul>
-      </li>
-    </div>
+    <Navbar/>
   );
 }
 
