@@ -28,7 +28,6 @@ nav{
     display: flex;
     align-items: center;
     height: 5rem;
-    color: var(--text-primary);
     text-decoration: none;
 }
 
@@ -41,6 +40,14 @@ nav{
     width: 2rem;
     min-width: 2rem;
     margin: 0 1.5rem;
+    filter: grayscale(100%) opacity(0.5);
+    transition: var(--transition-speed);
+}
+
+.nav-link:hover{
+    filter: grayscale(0%) opacity(1);
+    color: var(--text-primary);
+    background-color: var(--highlight);
 }
 
 nav:hover{
@@ -49,4 +56,13 @@ nav:hover{
 
 nav:hover .link-text{
     display: block;
+    color: var(--text-primary);
+}
+.fabar{
+    fill: var(--bg-primary);
+    transition: var(--transition-speed);
+}
+
+nav:hover .fabar{
+    fill: var(--text-secundary);
 }

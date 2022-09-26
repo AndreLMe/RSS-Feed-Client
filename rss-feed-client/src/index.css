@@ -3,8 +3,9 @@
 	--bg-primary: #180A0A;
 	--bg-secundary: #711A75;
 	--text-primary: #fdd1df;
-	--text-secundary: #ffd5e2;
+	--text-secundary: #fff2f6;
 	--highlight: #F582A7;
+	--transition-speed: 600ms;
 	font-family: -apple-system, BlinkMacSystemFont,'Roboto',sans-serif;
 }
 
