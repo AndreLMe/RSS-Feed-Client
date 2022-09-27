@@ -62,7 +62,7 @@ nav:hover .fabar{
     nav{
         bottom: 0;
         width: 100vw;
-        height: 4rem;
+        height: 10rem;
     }
 
     .navbar-list{
@@ -71,12 +71,12 @@ nav:hover .fabar{
 
     .nav-link{
         justify-content: center;
-        height: 4rem;
+        height: 10rem;
     }
 
     main{
         margin: 0;
-        margin-bottom: 4rem;
+        margin-bottom: 10rem;
     }
 }
 
